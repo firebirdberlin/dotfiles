@@ -1,0 +1,19 @@
+[include]
+    path = ~/.gitconfig.local
+
+[color]
+	ui = true
+
+[push]
+default = current
+
+[alias]
+co = checkout
+
+# merge branch without fast-forward
+mb = merge --no-ff
+delete-merged = "!git branch --merged | grep -v master | xargs git branch -d"
+
+[core]
+	editor = vi
+	excludesfile = ~/.gitignore
