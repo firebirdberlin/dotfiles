@@ -32,6 +32,7 @@ Plugin 'tjennings/git-grep-vim'
 Plugin 'nanotech/jellybeans.vim'
 Plugin 'tell-k/vim-autoflake'
 Plugin 'triglav/vim-visual-increment'
+Plugin 'dkprice/vim-easygrep'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
