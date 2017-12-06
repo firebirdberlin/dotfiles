@@ -30,7 +30,6 @@ Plugin 'mustache/vim-mustache-handlebars'
 Plugin 'octref/RootIgnore'
 Plugin 'tjennings/git-grep-vim'
 Plugin 'nanotech/jellybeans.vim'
-Plugin 'tell-k/vim-autoflake'
 Plugin 'triglav/vim-visual-increment'
 Plugin 'dkprice/vim-easygrep'
 
@@ -113,7 +112,3 @@ set foldmethod=indent   "fold based on indent
 set foldnestmax=10      "deepest fold is 10 levels
 set nofoldenable        "dont fold by default
 set foldlevel=1         "this is just what i use filetype plugin indent on
-
-"" autoflake
-let g:autoflake_remove_all_unused_imports=1
-
