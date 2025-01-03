@@ -14,6 +14,7 @@ unhide = update-index --no-assume-unchanged
 unhide-all = update-index --really-refresh
 hidden = !git ls-files -v | grep \"^[a-z]\"
 ignored = !git status -s --ignored | grep \"^!!\"
+delete-remote = push origin --delete
 
 # merge branch without fast-forward
 mb = merge --no-ff
